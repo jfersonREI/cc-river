@@ -3,7 +3,6 @@ import AppFooter from "./components/Layout/AppFooter/AppFooter";
 import AppHeader from "./components/Layout/AppHeader/AppHeader";
 import AppMain from "./components/AppMain/AppMain";
 import PageHeader from "./components/PageHeader/PageHeader";
-
 import BeachDetailHeader from "./components/BeachDetailHeader/BeachDetailHeader";
 import Divider from "./components/Divider/Divider";
 
