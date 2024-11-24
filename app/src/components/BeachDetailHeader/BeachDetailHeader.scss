@@ -1,0 +1,42 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/mixins";
+
+.beach-detail-header {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 0;
+  column-gap: 0;
+
+  @include breakpoint(mobile) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  @include breakpoint(tablet) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  @include breakpoint(desktop) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &__media {
+    background-color: $white;
+    overflow: hidden;
+  }
+  &__image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  &__details {
+    background-color: $base-lightest;
+    padding: $space-600 $space-500;
+    display: grid;
+    align-items: center;
+    row-gap: $space-250;
+
+    span {
+      background-color: gray;
+      padding: 16px;
+    }
+  }
+}

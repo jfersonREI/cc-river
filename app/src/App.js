@@ -4,10 +4,9 @@ import AppHeader from "./components/Layout/AppHeader/AppHeader";
 import AppMain from "./components/AppMain/AppMain";
 import CaseReviewHeader from "./components/PageHeader/PageHeader";
 import CaseReviewOverview from "./components/CaseReviewOverview/CaseReviewOverview";
+import BeachDetailHeader from "./components/BeachDetailHeader/BeachDetailHeader";
 
-import Divider from "./components/Divider/Divider";
-
-import { FormGroup, Label, Select, Textarea } from "@trussworks/react-uswds";
+import beachOne from "../src/assets/beach-01.jpg";
 
 export default function App() {
   return (
@@ -17,6 +16,8 @@ export default function App() {
 
         <AppMain>
           <CaseReviewHeader />
+          <BeachDetailHeader alt="beach name" image={beachOne} />
+
           <CaseReviewOverview />
         </AppMain>
 
