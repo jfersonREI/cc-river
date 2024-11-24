@@ -2,7 +2,7 @@
 @import "abstracts/mixins";
 
 body {
-  background-color: lighten($base-lightest, 1%);
+  background-color: $white;
 }
 
 .usa-banner__inner {
