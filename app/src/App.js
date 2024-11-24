@@ -2,9 +2,10 @@ import React from "react";
 import AppFooter from "./components/Layout/AppFooter/AppFooter";
 import AppHeader from "./components/Layout/AppHeader/AppHeader";
 import AppMain from "./components/AppMain/AppMain";
-import CaseReviewHeader from "./components/PageHeader/PageHeader";
-import CaseReviewOverview from "./components/CaseReviewOverview/CaseReviewOverview";
+import PageHeader from "./components/PageHeader/PageHeader";
+
 import BeachDetailHeader from "./components/BeachDetailHeader/BeachDetailHeader";
+import Divider from "./components/Divider/Divider";
 
 import beachOne from "../src/assets/beach-01.jpg";
 
@@ -15,7 +16,7 @@ export default function App() {
         <AppHeader />
 
         <AppMain>
-          <CaseReviewHeader />
+          <PageHeader />
           <BeachDetailHeader
             alt="beach name"
             image={beachOne}
@@ -24,6 +25,17 @@ export default function App() {
             phoneLine1="703-759-9018"
             phoneLine2="TTY 711"
           />
+
+          <Divider />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </AppMain>
 
         <AppFooter />
