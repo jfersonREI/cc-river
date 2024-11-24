@@ -16,7 +16,14 @@ export default function App() {
 
         <AppMain>
           <CaseReviewHeader />
-          <BeachDetailHeader alt="beach name" image={beachOne} />
+          <BeachDetailHeader
+            alt="beach name"
+            image={beachOne}
+            addressLine1="8700 Potomac Hills Street"
+            addressLine2="Great Falls, Virginia"
+            phoneLine1="703-759-9018"
+            phoneLine2="TTY 711"
+          />
 
           <CaseReviewOverview />
         </AppMain>

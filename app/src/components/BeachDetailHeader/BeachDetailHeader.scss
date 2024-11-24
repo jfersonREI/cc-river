@@ -8,12 +8,6 @@
   row-gap: 0;
   column-gap: 0;
 
-  @include breakpoint(mobile) {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  @include breakpoint(tablet) {
-    grid-template-columns: repeat(1, 1fr);
-  }
   @include breakpoint(desktop) {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -29,14 +23,32 @@
   }
   &__details {
     background-color: $base-lightest;
-    padding: $space-600 $space-500;
+    padding: $space-600;
     display: grid;
     align-items: center;
-    row-gap: $space-250;
+    row-gap: $space-400;
 
+    @include breakpoint(desktop) {
+      row-gap: $space-250;
+    }
+  }
+  &__details-item {
+    display: flex;
+    align-items: center;
+  }
+  &__details-icon {
+    background-color: $primary;
+    padding: $space-150;
+    color: $white;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  &__details-text {
+    padding: $space-100 $space-200;
+    flex: 1;
     span {
-      background-color: gray;
-      padding: 16px;
+      display: block;
+      padding: $space-025 0;
     }
   }
 }
