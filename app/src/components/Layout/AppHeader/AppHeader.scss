@@ -30,7 +30,7 @@
   }
   &__logo-image {
     display: block;
-    max-height: 80px;
+    max-height: 40px;
     width: auto;
     @include breakpoint(mobile) {
       max-height: 40px;
