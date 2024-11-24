@@ -1,0 +1,37 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/mixins";
+
+.case-review-overview {
+  background-color: lighten($base-lightest, 4%);
+  border: $base-lighter $border-width-sm solid;
+  padding: $space-400 $space-300;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: $space-200;
+  column-gap: $space-300;
+
+  @include breakpoint(desktop) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &__col {
+    background-color: transparent;
+    display: flex;
+    flex-flow: column wrap;
+    gap: $space-200;
+    color: $ink;
+  }
+  &__info-block {
+    display: flex;
+    flex-flow: column wrap;
+    gap: $space-075;
+  }
+  &__info-label {
+    font-weight: $font-weight-semibold;
+    font-size: $font-size-text-sm;
+  }
+  &__info-value {
+    font-weight: $font-weight-regular;
+    font-size: $font-size-text-sm;
+  }
+}

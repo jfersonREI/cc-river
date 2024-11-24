@@ -1,0 +1,7 @@
+@import "../../scss/abstracts/variables";
+
+.app-panel-grid {
+  display: flex;
+  flex-flow: column wrap;
+  gap: $space-300;
+}

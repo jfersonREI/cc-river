@@ -1,0 +1,225 @@
+@import "../../scss/abstracts/variables";
+
+.icon-button {
+  background-color: transparent;
+  border: 0;
+  padding: 0.5rem;
+  margin: 0;
+  border-radius: $border-radius-xs;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: $base-darkest;
+
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 0;
+
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: auto;
+
+  &--focus {
+    outline: 0.25rem solid #2491ff;
+    outline-offset: 0;
+  }
+  &:not([disabled]).button-icon--focus,
+  &:not([disabled]):focus {
+    outline-offset: 0.25rem;
+  }
+  &:hover {
+    background-color: $base-lightest;
+    color: $ink;
+  }
+  &:active {
+    background-color: transparent;
+    color: $ink;
+  }
+  &:disabled {
+    background-color: $disabled;
+    color: #fff;
+    pointer-events: none;
+  }
+  //
+  svg,
+  img {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+  }
+
+  &--sm {
+    padding: 0.4375rem;
+    svg,
+    img {
+      display: block;
+      width: 1.125rem;
+      height: 1.125rem;
+      fill: currentColor;
+    }
+  }
+
+  //primary
+  &--primary {
+    background-color: $primary;
+    color: #fff;
+    &:hover {
+      background-color: $primary-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $primary-darker;
+      color: #fff;
+    }
+  }
+  //secondary
+  &--secondary {
+    background-color: $secondary;
+    color: #fff;
+    &:hover {
+      background-color: $secondary-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $secondary-darker;
+      color: #fff;
+    }
+  }
+  //accent-cool
+  &--accent-cool {
+    background-color: $accent-cool;
+    color: $base-darkest;
+    &:hover {
+      background-color: $accent-cool-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $accent-cool-darker;
+      color: #fff;
+    }
+  }
+  //accent-warm
+  &--accent-warm {
+    background-color: $accent-warm;
+    color: #fff;
+    &:hover {
+      background-color: $accent-warm-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $accent-warm-darker;
+      color: #fff;
+    }
+  }
+  //base
+  &--base {
+    background-color: $base;
+    color: #fff;
+    &:hover {
+      background-color: $base-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $base-darker;
+      color: #fff;
+    }
+  }
+  //error
+  &--error {
+    background-color: $error;
+    color: #fff;
+    &:hover {
+      background-color: $error-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $error-darker;
+      color: #fff;
+    }
+  }
+  //success
+  &--success {
+    background-color: $success;
+    color: #fff;
+    &:hover {
+      background-color: $success-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $success-darker;
+      color: #fff;
+    }
+  }
+
+  //inverse
+  &--inverse {
+    background-color: $base-lighter;
+    color: $base-darkest;
+    &:hover {
+      background-color: $base-lightest;
+      color: $base-darkest;
+    }
+    &:active {
+      background-color: #fff;
+      color: $base-darkest;
+    }
+  }
+
+  //flat
+  &--flat {
+    background-color: transparent;
+    color: $base-light;
+    &:hover {
+      background-color: transparent;
+      color: $base-darker;
+    }
+    &:active {
+      background-color: transparent;
+      color: $base-darkest;
+    }
+  }
+  //selected
+  &--selected {
+    background-color: transparent;
+    color: $primary;
+    &:hover {
+      background-color: transparent;
+      color: $primary;
+    }
+    &:active {
+      background-color: transparent;
+      color: $primary;
+    }
+  }
+
+  //outline
+  &--outline {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px $primary;
+    color: $primary;
+    &:disabled {
+      background-color: transparent;
+      box-shadow: inset 0 0 0 2px $disabled;
+      color: $disabled;
+    }
+    &:hover {
+      background-color: transparent;
+      box-shadow: inset 0 0 0 2px $primary-dark;
+      color: $primary-dark;
+    }
+    &:active {
+      background-color: transparent;
+      box-shadow: inset 0 0 0 2px $primary-darker;
+      color: $primary-darker;
+    }
+  }
+}

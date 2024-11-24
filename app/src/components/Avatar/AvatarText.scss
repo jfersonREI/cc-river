@@ -1,0 +1,47 @@
+@import "../../scss/abstracts/variables";
+
+//24, 40, 56 circle square rounded
+
+.avatar-text {
+  display: inline-flex;
+  overflow: hidden;
+  line-height: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: $accent-warm-light;
+  color: $ink;
+  border-radius: $border-radius-full;
+  flex-shrink: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &--circle {
+    border-radius: $border-radius-full;
+  }
+  &--rounded {
+    border-radius: $border-radius-xs;
+  }
+  &--square {
+    border-radius: $border-radius-none;
+  }
+  &--sm {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.625rem;
+  }
+  &--md {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.06rem;
+  }
+  &--lg {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+  }
+  &--xl {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+  }
+}

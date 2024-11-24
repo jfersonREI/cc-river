@@ -1,0 +1,11 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/mixins";
+
+.usa-footer__logo-img {
+  color: $base;
+  fill: currentColor;
+}
+.usa-social-link {
+  height: 2rem;
+  width: 2rem;
+}

@@ -1,0 +1,17 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/mixins";
+
+.case-field-info-block {
+  display: flex;
+  flex-flow: column wrap;
+  gap: $space-075;
+
+  &__label {
+    font-weight: $font-weight-semibold;
+    font-size: $font-size-text-sm;
+  }
+  &__value {
+    font-weight: $font-weight-regular;
+    font-size: $font-size-text-sm;
+  }
+}

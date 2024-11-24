@@ -1,0 +1,48 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/mixins";
+
+.app-header {
+  background-color: $white;
+  padding: $space-200 0;
+  box-shadow: 0px 2px 6px 0px $alpha-black-10;
+
+  .grid-container {
+    max-width: 100%;
+  }
+
+  .usa-search {
+    margin-right: 0;
+    width: auto;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    background-color: transparent;
+  }
+  &__logo-link {
+    display: block;
+    color: $primary;
+  }
+  &__logo-image {
+    display: block;
+    max-height: 80px;
+    width: auto;
+    @include breakpoint(mobile) {
+      max-height: 40px;
+    }
+    @include breakpoint(tablet) {
+      max-height: 40px;
+    }
+    @include breakpoint(desktop) {
+      max-height: 60px;
+    }
+  }
+  &__actions {
+    background-color: transparent;
+  }
+}

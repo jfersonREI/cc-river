@@ -1,0 +1,12 @@
+@import "../../scss/abstracts/variables";
+
+.app-main {
+  background-image: url(../../assets/inner-pg-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover 400px;
+
+  padding: $space-600 0 $space-300 0;
+  .grid-container {
+    max-width: 100%;
+  }
+}

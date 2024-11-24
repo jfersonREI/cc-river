@@ -1,0 +1,22 @@
+@import "../../scss/abstracts/variables";
+
+.case-expand-section-header {
+  background-color: lighten($primary-lighter, 5%);
+  padding: $space-200 $space-300;
+  margin: $space-500 $neg-space-300 $space-300 $neg-space-300;
+  border: $white $border-width-sm solid;
+  color: $primary;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__label {
+    font-size: $font-size-text-base;
+    font-weight: $font-weight-semibold;
+    flex: 1;
+  }
+
+  &:first-of-type {
+    margin: $neg-space-300 $neg-space-300 $space-300 $neg-space-300;
+  }
+}

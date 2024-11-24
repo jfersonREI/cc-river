@@ -1,0 +1,22 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/mixins";
+
+.case-field-group {
+  background-color: transparent;
+  display: grid;
+  gap: $space-400;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+
+  @include breakpoint(mobile) {
+    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  }
+  @include breakpoint(tablet) {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+  @include breakpoint(desktop) {
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  }
+  @include breakpoint(widescreen) {
+    grid-template-columns: repeat(auto-fit, minmax(36rem, 1fr));
+  }
+}

@@ -1,0 +1,159 @@
+@import "alpha-colors";
+@import "primitive-colors";
+@import "semantic-colors";
+
+// border radius
+$border-radius-none: 0px;
+$border-radius-2xs: 2px;
+$border-radius-xs: 4px;
+$border-radius-sm: 6px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+$border-radius-2xl: 20px;
+$border-radius-3xl: 30px;
+$border-radius-full: 9999px;
+
+//border width
+$border-width-0: 0px;
+$border-width-sm: 1px;
+$border-width-md: 2px;
+$border-width-lg: 4px;
+$border-width-xl: 8px;
+
+//spacing
+$space-0: 0px;
+$space-025: 2px;
+$space-050: 4px;
+$space-075: 6px;
+$space-100: 8px;
+$space-125: 10px;
+$space-150: 12px;
+$space-200: 16px;
+$space-250: 20px;
+$space-300: 24px;
+$space-400: 32px;
+$space-500: 40px;
+$space-600: 48px;
+$space-700: 56px;
+$space-800: 64px;
+$space-900: 72px;
+
+//negative spacing
+$neg-space-025: -2px;
+$neg-space-050: -4px;
+$neg-space-075: -6px;
+$neg-space-100: -8px;
+$neg-space-125: -10px;
+$neg-space-150: -12px;
+$neg-space-200: -16px;
+$neg-space-250: -20px;
+$neg-space-300: -24px;
+$neg-space-400: -32px;
+$neg-space-500: -40px;
+$neg-space-600: -48px;
+$neg-space-700: -56px;
+$neg-space-800: -64px;
+$neg-space-900: -72px;
+
+//letter spacing
+$letter-spacing-neg-3: -0.5400000214576721px;
+$letter-spacing-neg-2: -0.30000001192092896px;
+$letter-spacing-neg-1: -0.20000000298023224px;
+$letter-spacing-auto: 0px;
+$letter-spacing-1: 0.20000000298023224px;
+$letter-spacing-2: 0.30000001192092896px;
+$letter-spacing-3: 0.5400000214576721px;
+
+//font-weight
+$font-weight-bold: 700;
+$font-weight-italic: italic;
+$font-weight-light: 300;
+$font-weight-medium: 500;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+
+$font-size-text-3xs: 0.87rem;
+$font-size-text-2xs: 0.93rem;
+$font-size-text-xs: 0.9rem;
+$font-size-text-sm: 1rem;
+$font-size-text-base: 1.06rem;
+$font-size-text-md: 1.13rem;
+$font-size-text-lg: 1.46rem;
+$font-size-text-xl: 2.13rem;
+$font-size-text-2xl: 2.66rem;
+$font-size-text-3xl: 3.19rem;
+
+$unit-0: 0px;
+$unit-1: 1px;
+$unit-2: 2px;
+$unit-4: 4px;
+$unit-6: 6px;
+$unit-8: 8px;
+$unit-10: 10px;
+$unit-12: 12px;
+$unit-14: 14px;
+$unit-16: 16px;
+$unit-18: 18px;
+$unit-20: 20px;
+$unit-24: 24px;
+$unit-28: 28px;
+$unit-32: 32px;
+$unit-36: 36px;
+$unit-40: 40px;
+$unit-44: 44px;
+$unit-48: 48px;
+$unit-56: 56px;
+$unit-64: 64px;
+$unit-72: 72px;
+$unit-80: 80px;
+$unit-88: 88px;
+$unit-96: 96px;
+$unit-112: 112px;
+$unit-128: 128px;
+$unit-144: 144px;
+$unit-160: 160px;
+$unit-176: 176px;
+$unit-192: 192px;
+$unit-208: 208px;
+$unit-224: 224px;
+$unit-240: 240px;
+$unit-256: 256px;
+$unit-288: 288px;
+$unit-320: 320px;
+$unit-384: 384px;
+
+//duration
+$duration-1-x: 0.1s;
+$duration-2-x: 0.2s;
+$duration-3-x: 0.3s;
+$duration-4-x: 0.4s;
+$duration-5-x: 0.5s;
+$duration-6-x: 0.6s;
+
+//icon sizes
+$icon-xs: 16px;
+$icon-sm: 20px;
+$icon-md: 24px;
+$icon-lg: 32px;
+$icon-xl: 48px;
+$icon-2xl: 64px;
+
+//avatar
+$avatar-size-xs: 24px;
+$avatar-size-sm: 32px;
+$avatar-size-md: 40px;
+$avatar-size-lg: 56px;
+$avatar-size-xl: 72px;
+$avatar-size-2xl: 96px;
+
+//breakpoints
+$breakpoint-card: 160px;
+$breakpoint-card-lg: 240px;
+$breakpoint-mobile: 320px;
+$breakpoint-mobile-lg: 480px;
+$breakpoint-tablet: 640px;
+$breakpoint-tablet-lg: 880px;
+$breakpoint-desktop: 1024px;
+$breakpoint-desktop-lg: 1200px;
+$breakpoint-widescreen: 1400px;
