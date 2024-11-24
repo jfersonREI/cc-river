@@ -1,6 +1,17 @@
 @import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/mixins";
 
 .app-panel {
   background-color: $white;
   padding: $space-600;
+
+  @include breakpoint(mobile) {
+    padding: $space-400;
+  }
+  @include breakpoint(tablet) {
+    padding: $space-500;
+  }
+  @include breakpoint(desktop) {
+    padding: $space-600;
+  }
 }

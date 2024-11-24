@@ -1,13 +1,13 @@
 @import "../../scss/abstracts/variables";
 @import "../../scss/abstracts/mixins";
 
-.case-review-header {
+.page-header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
   gap: $space-300;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   border-bottom: $base-lightest 4px solid;
+
   &__details {
     display: flex;
     flex-flow: column wrap;
@@ -20,5 +20,8 @@
     font-size: $font-size-text-2xl;
     letter-spacing: $letter-spacing-neg-3;
     padding-bottom: $space-500;
+  }
+  .usa-breadcrumb {
+    padding: 0;
   }
 }
