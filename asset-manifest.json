@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cc-river/static/css/main.b7908b5f.css",
-    "main.js": "/cc-river/static/js/main.dc0763aa.js",
+    "main.js": "/cc-river/static/js/main.3ceb8468.js",
     "static/js/453.a6a97343.chunk.js": "/cc-river/static/js/453.a6a97343.chunk.js",
     "static/media/inner-pg-bg.png": "/cc-river/static/media/inner-pg-bg.81f2aa097f6c89530c72.png",
     "static/media/beach-01.jpg": "/cc-river/static/media/beach-01.ccad5b16a81d1b7b4aa9.jpg",
@@ -11,11 +11,11 @@
     "static/media/river-header-logo.svg": "/cc-river/static/media/river-header-logo.1e2f5de7558206d11960faa895776c5e.svg",
     "index.html": "/cc-river/index.html",
     "main.b7908b5f.css.map": "/cc-river/static/css/main.b7908b5f.css.map",
-    "main.dc0763aa.js.map": "/cc-river/static/js/main.dc0763aa.js.map",
+    "main.3ceb8468.js.map": "/cc-river/static/js/main.3ceb8468.js.map",
     "453.a6a97343.chunk.js.map": "/cc-river/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7908b5f.css",
-    "static/js/main.dc0763aa.js"
+    "static/js/main.3ceb8468.js"
   ]
 }
