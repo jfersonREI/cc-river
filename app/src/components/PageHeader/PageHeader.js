@@ -7,9 +7,6 @@ import {
 } from "@trussworks/react-uswds";
 
 function PageHeader() {
-  function sayClick() {
-    alert("Click!");
-  }
   return (
     <div className="page-header">
       <BreadcrumbBar>
