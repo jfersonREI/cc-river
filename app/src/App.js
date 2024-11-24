@@ -24,8 +24,6 @@ export default function App() {
             phoneLine1="703-759-9018"
             phoneLine2="TTY 711"
           />
-
-          <CaseReviewOverview />
         </AppMain>
 
         <AppFooter />
