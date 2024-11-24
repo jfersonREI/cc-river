@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/codeChallenge/static/css/main.18bcca22.css",
+    "main.css": "/codeChallenge/static/css/main.48a77ea0.css",
     "main.js": "/codeChallenge/static/js/main.64cd23b1.js",
     "static/js/453.a6a97343.chunk.js": "/codeChallenge/static/js/453.a6a97343.chunk.js",
     "static/media/inner-pg-bg.png": "/codeChallenge/static/media/inner-pg-bg.81f2aa097f6c89530c72.png",
@@ -9,12 +9,12 @@
     "static/media/river-footer-logo.svg": "/codeChallenge/static/media/river-footer-logo.1e2f5de7558206d11960faa895776c5e.svg",
     "static/media/river-header-logo.svg": "/codeChallenge/static/media/river-header-logo.1e2f5de7558206d11960faa895776c5e.svg",
     "index.html": "/codeChallenge/index.html",
-    "main.18bcca22.css.map": "/codeChallenge/static/css/main.18bcca22.css.map",
+    "main.48a77ea0.css.map": "/codeChallenge/static/css/main.48a77ea0.css.map",
     "main.64cd23b1.js.map": "/codeChallenge/static/js/main.64cd23b1.js.map",
     "453.a6a97343.chunk.js.map": "/codeChallenge/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18bcca22.css",
+    "static/css/main.48a77ea0.css",
     "static/js/main.64cd23b1.js"
   ]
 }
