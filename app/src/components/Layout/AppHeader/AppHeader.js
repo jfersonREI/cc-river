@@ -8,7 +8,6 @@ import {
   PrimaryNav,
   NavMenuButton,
   Search,
-  Menu,
 } from "@trussworks/react-uswds";
 
 const mockSubmit = (): void => {
@@ -18,17 +17,6 @@ const mockSubmit = (): void => {
 function AppHeader() {
   const [expanded, setExpanded] = useState(false);
   const onClick = (): void => setExpanded((prvExpanded) => !prvExpanded);
-
-  const testMenuItems = [
-    <a href="#linkOne" key="one">
-      Current link
-    </a>,
-    <a href="#linkTwo" key="two">
-      Simple link Two
-    </a>,
-  ];
-
-  const [isOpen, setIsOpen] = useState([false, false]);
 
   const testItemsMenu = [
     <a href="#two" key="two" className="usa-nav__link">
@@ -54,7 +42,7 @@ function AppHeader() {
             </div>
 
             <Header basic={true} showMobileOverlay={expanded}>
-              <div className="usa-nav-containerxx">
+              <div className="usa-nav-containers">
                 <div className="usa-navbar">
                   <NavMenuButton onClick={onClick} label="Menu" />
                 </div>
